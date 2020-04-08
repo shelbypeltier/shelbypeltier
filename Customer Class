@@ -1,0 +1,24 @@
+import java.text.NumberFormat;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+public class Customer {
+	
+public static void main(String[]args) {
+	//General Information
+	Scanner Customer = new Scanner(System.in);
+	String TblNumber;
+	int cusNumber;
+	String Burger;
+	String Salad;
+	String Side;
+	String Drink;
+	String Dessert;
+
+	System.out.println("Please Enter Customer Table Number: ");
+	TblNumber = Customer.nextLine();
+	System.out.println("Please enter the number of Customers at table");
+	cusNumber = Customer.nextInt();
+	
+	
+ 
+}
